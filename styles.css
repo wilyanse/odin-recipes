@@ -13,12 +13,19 @@ li {
 }
 
 .links-list ul {
+    text-align: inherit;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .links-list ul li {
+    text-align: inherit;
     margin: 0;
     padding: 0;
+}
+
+img {
+    height: auto;
+    width: 500px;
 }
