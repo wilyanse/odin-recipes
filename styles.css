@@ -34,3 +34,8 @@ img {
     height: auto;
     width: 500px;
 }
+
+.description, .ingredients, .steps {
+    border: 1px solid black;
+    border-radius: 5px;
+}
