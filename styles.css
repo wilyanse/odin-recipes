@@ -7,8 +7,6 @@
 li {
     text-align: justify;
     margin: 8px;
-    border: solid;
-    border: 1px solid brown;
     
 }
 
@@ -35,7 +33,34 @@ img {
     width: 500px;
 }
 
-.description, .ingredients, .steps {
+.description, .ingredients, .steps, .introduction, .links-list{
+    background-color: antiquewhite;
+
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 {
+    border: 1px dotted black;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+}
+
+ul, ol {
+    background-color: aliceblue;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+a {
+    font-size: medium;
+    color: darkblue;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+    margin: 30px;
 }
