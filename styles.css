@@ -6,9 +6,14 @@
 
 li {
     text-align: justify;
+    margin: 8px;
+    border: solid;
+    border: 1px solid brown;
+    
 }
 
 .links-list {
+    border: 5px;
     text-align: center;
 }
 
@@ -21,8 +26,8 @@ li {
 
 .links-list ul li {
     text-align: inherit;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 5px;
 }
 
 img {
